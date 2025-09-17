@@ -12,6 +12,9 @@
      "postinstall": "npm rebuild bcrypt --build-from-source",
     "server": "nodemon server.js"
   },
+  "engines": {
+  "node": "22.x"
+},
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.6.0",
