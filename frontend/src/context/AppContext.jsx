@@ -7,7 +7,7 @@ export const AppContext = createContext()
 
   const AppContextProvider = (props) => {
 
-       const url = "https://relief-backend-5af3.onrender.com "
+       const url = "https://relief-backend-whgf.onrender.com"
        const currencySymbol = '$'
        const backendUrl = import.meta.env.VITE_BACKEND_URL
 
