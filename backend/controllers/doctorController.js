@@ -1,7 +1,7 @@
 import { response } from "express";
 import doctorModel from "../models/doctorModel.js";
 import jwt from  'jsonwebtoken'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcrypt.js'
 import appointmentModel from "../models/appointmentModel.js";
 
 const changeAvailablity =  async (req,res) => {
